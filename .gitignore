@@ -19,6 +19,7 @@
 
 # RStudio files
 .Rproj.user/
+rKraken.Rproj
 
 # produced vignettes
 vignettes/*.html

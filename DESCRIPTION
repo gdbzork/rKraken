@@ -1,0 +1,17 @@
+Package: rKraken
+Type: Package
+Title: Wrapper for the Kraken Package
+Version: 0.1-1
+Date: 2020-02-24
+Authors@R: c(person("Stijn", "van Dongen", role = c("aut"), email = "svd@sanger.ac.uk"),
+             person("Gord", "Brown", role = c("aut", "cre"), email = "gordon.brown@cruk.cam.ac.uk"))
+Description: This package provides three functions, wrapping utilities from
+  the Kraken package (https://www.ebi.ac.uk/research/enright/software/kraken).
+  "reaper" demultiplexes, trims, and filters short read sequencing data.
+  "tally" collapses identical reads to a single entry, recording the number
+  of occurrences of each.  "minion" infers the sequence of 3' adapter in
+  short read data.
+License: GPL (>= 3)
+Depends: R (>= 3.6.0)
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp

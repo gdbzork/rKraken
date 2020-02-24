@@ -1,0 +1,3 @@
+useDynLib(rKraken, .registration=TRUE)
+export(reaper, minion, tally)
+importFrom(Rcpp, evalCpp)
